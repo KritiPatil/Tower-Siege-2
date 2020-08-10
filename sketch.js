@@ -120,6 +120,6 @@ function mouseReleased(){
 function keyPressed() {
   if(keyCode === "SPACE") {
      lan.attach(this.polygon);
-     console.log(polygon);
+     console.log(lan);
   }
 }
