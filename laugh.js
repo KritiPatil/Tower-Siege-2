@@ -1,0 +1,1 @@
+var lol = "laughing out loud";
