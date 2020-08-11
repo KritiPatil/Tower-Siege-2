@@ -118,7 +118,7 @@ function mouseReleased(){
 }
 
 function keyPressed() {
-  if(keyCode === "SPACE") {
+  if(keyCode === 32) {
      lan.attach(this.polygon);
      console.log(lan);
   }
