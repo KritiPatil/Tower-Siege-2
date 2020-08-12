@@ -103,8 +103,6 @@ function draw() {
   fill (0, 198, 233);
   ellipse(polygon.position.x, polygon.position.y, 20 );
 
-  keyPressed();
-
   drawSprites();
 }
 
@@ -119,7 +117,7 @@ function mouseReleased(){
 
 function keyPressed() {
   if(keyCode === 32) {
-     lan.attach(this.polygon);
+     lan.attach(polygon);
      console.log(lan);
   }
 }
